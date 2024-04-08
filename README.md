@@ -47,6 +47,10 @@
 4. All users must be authenticated to access video streaming/meeting service.
 5. In the context, the other React components can then use `useStreamVideoClient` hook to retrieve the stream client. 
 
+## Call controls
+1. To show call control options by using `CallControls` from video React SDK, we need to import css. [Video UI components](https://getstream.io/video/docs/react/ui-components/video-theme/)
+2. The UI will be rendered when we import `import '@stream-io/video-react-sdk/dist/css/styles.css';` in `/app/layout.tsx`.
+
 ## Crypto
 1. [Crypto MDN](https://developer.mozilla.org/en-US/docs/Web/API/Crypto).
 2. We can use `crypto.randomUUID()` to generate a random v4 uuid.
