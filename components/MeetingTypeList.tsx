@@ -1,12 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-
-import HomeCard from './HomeCard';
 import { useRouter } from 'next/navigation';
-import MeetingModal from './MeetingModal';
 import { useUser } from '@clerk/nextjs';
 import { Call, useStreamVideoClient } from '@stream-io/video-react-sdk';
+
+
+import HomeCard from './HomeCard';
+import MeetingModal from './MeetingModal';
 
 const MeetingTypeList = () => {
   const router = useRouter();
