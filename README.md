@@ -50,6 +50,8 @@
 ## Call controls
 1. To show call control options by using `CallControls` from video React SDK, we need to import css. [Video UI components](https://getstream.io/video/docs/react/ui-components/video-theme/)
 2. The UI will be rendered when we import `import '@stream-io/video-react-sdk/dist/css/styles.css';` in `/app/layout.tsx`.
+3. Use `CallStatsButton` to check on [call statistics](https://getstream.io/video/docs/react/ui-components/utility/call-statistics/).
+4. `CallParticipantsList` shows all the participants in the meeting room. 
 
 ## Crypto
 1. [Crypto MDN](https://developer.mozilla.org/en-US/docs/Web/API/Crypto).
