@@ -1,4 +1,13 @@
+import type { Metadata } from 'next';
 import StreamVideoProvider from '@/providers/StreamClientProvider';
+
+export const metadata: Metadata = {
+  title: 'YOOM',
+  description: 'Video calling app',
+  icons: {
+    icon: '/icons/logo.svg',
+  },
+};
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
