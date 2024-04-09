@@ -53,6 +53,9 @@
 3. Use `CallStatsButton` to check on [call statistics](https://getstream.io/video/docs/react/ui-components/utility/call-statistics/).
 4. `CallParticipantsList` shows all the participants in the meeting room. 
 
+## React Date Picker
+1. This package requires its own css file imported in `/app/layout.tsx`.
+
 ## Crypto
 1. [Crypto MDN](https://developer.mozilla.org/en-US/docs/Web/API/Crypto).
 2. We can use `crypto.randomUUID()` to generate a random v4 uuid.
